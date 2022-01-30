@@ -1,0 +1,67 @@
+body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.form h2{
+    font-family:'Satisfy', cursive;;
+    font-size: 2.4rem;
+    color:black;
+    padding: 3px  65px;
+}
+.form::before{
+
+z-index: 3;
+opacity: 0.8;
+}
+.form
+{
+    background-color:rgb(162 188 197 / 67%);
+    margin: 50px 33%;
+    padding-top:12px;
+    padding-left:100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 15px black;
+    font-size: 1.3rem;
+    
+    
+
+    
+
+}
+#name,#email,#phoneno, #rollno,#why
+{
+    padding: 5px;
+    margin: 5px 0;
+    width:60%;
+    box-shadow: 2px 2px 2px black;
+    border-radius: 5px;
+}
+#radio
+{
+    margin-top:5px;
+
+}
+#why
+{
+height:100px;
+border-radius: 5px;
+}
+#submit
+{
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    margin-left:100px;
+    border-color: black;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 5px;
+}
+#submit:hover
+{
+    color:white;
+    background-color:black;
+}
+ 
